@@ -1,2 +1,3 @@
-# cos-planningcenter-calendar
-Wrapper for the Planning Center Calendar API.
+# Planning Center Calendar API wrapper
+
+This is destined to be a NuGet package for interacting with the Planning Center API.
