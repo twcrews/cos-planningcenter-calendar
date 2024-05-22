@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DefaultNamespace>Crews.PlanningCenter.Calendar</DefaultNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Crews.PlanningCenter.Calendar</PackageId>
+    <PackageVersion>1.0.0-preview.1</PackageVersion>
+    <Authors>Church of the Shepherd</Authors>
+    <Description>
+      A library containing models and services for interacting with the Planning Center Calendar API.
+    </Description>
+    <PackageProjectUrl>https://github.com/twcrews/cos-planningcenter-calendar</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/twcrews/cos-planningcenter-calendar.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>PlanningCenter;ChurchCenter;Church;REST;API;Calendar</PackageTags>
+    <PackageReleaseNotes>
+      https://github.com/twcrews/cos-planningcenter-calendar/blob/master/CHANGELOG.md
+    </PackageReleaseNotes>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="\" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JsonApiFramework.Client" Version="2.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models/" />
+  </ItemGroup>
+
+</Project>
