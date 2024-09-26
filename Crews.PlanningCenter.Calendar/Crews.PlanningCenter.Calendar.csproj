@@ -32,11 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="JsonApiFramework.Client" Version="2.10.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Models/" />
+    <PackageReference Include="Crews.PlanningCenter.Api" Version="1.0.0-preview.3" />
   </ItemGroup>
 
 </Project>
