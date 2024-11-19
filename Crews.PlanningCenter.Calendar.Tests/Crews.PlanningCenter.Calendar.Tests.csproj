@@ -20,4 +20,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Crews.PlanningCenter.Calendar\Crews.PlanningCenter.Calendar.csproj" />
+  </ItemGroup>
+
 </Project>
